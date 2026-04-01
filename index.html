@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>RXC KING</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<canvas id="animatedBG"></canvas>
+
+<!-- Page 1 -->
+<div id="page1" class="page active">
+  <h1>RXC KING 👑</h1>
+  <button id="exploreBtn">Explore</button>
+</div>
+
+<!-- Page 2 -->
+<div id="page2" class="page">
+  <h1>Enter Details</h1>
+  <input id="uidInput" type="text" placeholder="Enter UID">
+  <input type="number" placeholder="Enter Amount">
+  <button id="doneBtn" class="bottom-btn">DONE NOW</button>
+</div>
+
+<!-- Page 3 -->
+<div id="page3" class="page">
+  <h1>Processing...</h1>
+  <div id="timer">5</div>
+  <div id="showUID"></div>
+  <div id="gameCheck"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
